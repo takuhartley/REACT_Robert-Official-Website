@@ -1,13 +1,18 @@
-import React, { Component } from 'react'
+import React from "react";
+import "./Homepage.css";
 
-export class Homepage extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Welcome to the Homepage</h1>
-            </div>
-        )
-    }
-}
+const Homepage = () => {
+  const homepagestyle = {
+    backgroundColor: "lightblue"
+  };
 
-export default Homepage
+  return (
+    <div id="Homepage" className = "Homepage" style={homepagestyle}>
+      <h1>Hi, my name is Robert</h1>
+      <p>I'm a Full-Stack Dev</p>
+      <p>Currently based in Seattle, WA</p>
+    </div>
+  );
+};
+
+export default Homepage;
