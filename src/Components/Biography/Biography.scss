@@ -1,0 +1,33 @@
+// Wrapper for the whole page
+.bio__wrapper {
+    max-height: 100vh;
+    max-width: 100vw;
+    background: rgb(37, 34, 209);
+
+    .img__wrapper {
+        // Image needs to be centered
+        text-align: center;
+        padding: 100px 0;
+        background: red;
+
+        // Gif needs to have a border
+        .animated-gif {
+            border-radius: 75px;
+            width: auto;
+            height: 120px;
+        }
+    }
+
+    .bio_title__wrapper {
+        text-align: left;
+        padding: 20px 0px 20px 80px;
+        background: green;
+    }
+
+    .content__wrapper {
+        background: rgba(84, 88, 100, 0.493);
+        border-radius: 10px;
+        margin: 40px 80px;
+        padding: 40px;
+    }
+}

@@ -17,12 +17,8 @@ const Projects = () => {
   // Date edited:
   
   return (
-    <div style={projectStyle}>
-      <h1>Portfolio</h1>
-      <p>Goal Tracker</p>
-      <p>Whodis</p>
-      <p>Cloudy Days</p>
-      <p>Portfolio Project (This one)</p>
+    <div className="container">
+      <h1>My Work</h1>
     </div>
   );
 };
